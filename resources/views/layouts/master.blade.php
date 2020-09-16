@@ -13,7 +13,12 @@
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css"> 
+    
 </head>
 
 <body>
@@ -43,9 +48,9 @@
 
                              <li><a href="#">Features</a>
                                 <ul class="dropdown">
-                                    <li><a href="#">Medicine</a></li>
+                                   
                                     <li><a href=".#price">Pricing</a></li>
-                                    <li><a href="#">Faq</a></li>
+                                    <li><a href="./faq">Faq</a></li>
                                 </ul>
                             </li>
 
@@ -94,7 +99,7 @@
                             <li><a href="#">Company</a></li>
                             <li><a href="#form">Application Form</a></li>
                             <li><a href="#us">Why Us?</a></li>
-                            <li><a href="#">Faq</a></li>
+                            <li><a href="./faq">Faq</a></li>
                         </ul>
                     </div>
                 </div>
@@ -102,7 +107,7 @@
                     <div class="footer__widget">
                         <h5>Features</h5>
                         <ul>
-                            <li><a href="#">Medicine</a></li>
+                           
                             <li><a href="#price">Pricing</a></li>
                             <li><a href="#">Details</a></li>
                             <li><a href="#">Lorem</a></li>
@@ -163,6 +168,10 @@
     <!-- Js Plugins -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 

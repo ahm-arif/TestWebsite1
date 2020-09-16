@@ -38,3 +38,7 @@ Route::get('/structure', function () {
 Route::get('/profile', function () {
     return view('pages.profile');
 });
+
+Route::get('/faq', function () {
+    return view('pages.faq');
+});
