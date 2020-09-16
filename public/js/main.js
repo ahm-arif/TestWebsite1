@@ -95,7 +95,7 @@
 })(jQuery);
 
     /*--------------------------
-        Slideshow ---- opsional
+        Slideshow ---- opsional - w3schools
     ----------------------------*/
     // var slideIndex = 0;
     // showSlides();
