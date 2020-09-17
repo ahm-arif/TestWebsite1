@@ -329,16 +329,17 @@ ol {
 }
 
 /*---------------------
-  Header
+  Header - sudah berhasil fixed 
 -----------------------*/
 
 .header {
 	background: #0c2b4b;
-	position: absolute;
+	position: fixed;
 	left: 0;
 	top: 0;
 	width: 100%; 	
 	display: block;
+	z-index: 9999;
 	
 	
 }
@@ -1927,3 +1928,72 @@ Responsive Media Quaries
 	width: 100%;
 }
 
+
+/*---------------------
+  Testimonial - undone
+-----------------------*/
+
+.testimonial__content {
+	padding: 90px 70px 90px;
+	margin-bottom: 60px;
+}
+
+.testimonial__content .section-title {
+	margin-bottom: 50px;
+}
+
+.testimonial__content .section-title h2 {
+	color: #ffffff;
+}
+
+.testimonial__slider {
+	max-width: 600px;
+}
+
+.testimonial__slider.owl-carousel .owl-dots {
+	margin-top: 25px;
+}
+
+.testimonial__slider.owl-carousel .owl-dots button {
+	height: 10px;
+	width: 10px;
+	display: inline-block;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.3);
+	margin-right: 10px;
+}
+
+.testimonial__slider.owl-carousel .owl-dots button.active {
+	background: white;
+}
+
+.testimonial__slider.owl-carousel .owl-dots button:last-child {
+	margin-right: 0;
+}
+
+.testimonial__item .quote-icon i {
+	font-size: 24px;
+	color: #0c2b4b;
+}
+
+.testimonial__item p {
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 27px;
+	font-style: italic;
+	margin-bottom: 20px;
+	margin-top: 6px;
+}
+
+.testimonial__item h6 {
+	color: #ffffff;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 4px;
+}
+
+.testimonial__item .rating i {
+	font-size: 12px;
+	color: #f3bd00;
+	margin-right: -4px;
+}
